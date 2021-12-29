@@ -136,7 +136,7 @@ body{
         flex-direction: row;
         height: 30%;
         width: 100%;
-        padding-top: 15.7%;
+        padding-top: 15.8%;
         background: rgba(0, 0, 0, 0.5);
     }
     .li_first{
@@ -160,7 +160,7 @@ body{
         transition-duration: 0.1s;
     }
     svg{
-        top: 37%;
+        top: 36%;
         right: 2%;
         position: absolute;
         width: 45px;
