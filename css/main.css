@@ -94,6 +94,17 @@ body{
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .absolute_txt{
+        position: absolute;
+        height: 5%;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        color: white;
+        font-size: 1.4vw;
+        font-family: "Bips";
+        text-align: center;
+        padding-top: 0.4%;
+    }
     nav{
         height: 100%;
         width: 100%;
