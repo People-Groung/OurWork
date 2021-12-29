@@ -14,6 +14,7 @@ if (!$_SESSION['user']){
 </head>
 <body>
     <header>
+        <div class="absolute_txt">РИТУАЛЬНЫЕ ТОВАРЫ И УСЛУГИ В АСТРАХАНИ, ПОХОРОНЫ, КРЕМАЦИЯ</div>
         <nav>
             <ul>
                 <div>
