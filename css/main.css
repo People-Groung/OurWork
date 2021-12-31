@@ -16,7 +16,7 @@ body{
 
 
 /* Big Desktop version */
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1919px){
     /* Header */
 
     .ava1{
@@ -34,6 +34,14 @@ body{
         background-image: url(/images/back_header2.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+    .logo{
+        position: absolute;
+        z-index: 2;
+        top: 18%;
+        left: 10%;
+        width: 30%;
+        height: 15%;
     }
     .absolute_txt{
         position: absolute;
@@ -58,9 +66,8 @@ body{
     nav ul div{
         display: flex;
         flex-direction: row;
-        height: 30%;
+        height: 420px;
         width: 100%;
-        padding-top: 15.4%;
         background: rgba(0, 0, 0, 0.5);
     }
     .li_first{
@@ -69,7 +76,7 @@ body{
     nav ul li{
         width: 7%;
         margin-left: 2.5%;  
-        margin-top: 3.1%;
+        margin-top: 360px;
         text-align: center;
     }
     nav ul li a{
@@ -115,6 +122,14 @@ body{
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .logo{
+        position: absolute;
+        z-index: 2;
+        top: 18%;
+        left: 10%;
+        width: 30%;
+        height: 15%;
+    }
     .absolute_txt{
         position: absolute;
         height: 5%;
@@ -138,9 +153,8 @@ body{
     nav ul div{
         display: flex;
         flex-direction: row;
-        height: 30%;
+        height: 420px;
         width: 100%;
-        padding-top: 15.8%;
         background: rgba(0, 0, 0, 0.5);
     }
     .li_first{
@@ -149,7 +163,7 @@ body{
     nav ul li{
         width: 7%;
         margin-left: 2.5%;  
-        margin-top: 3.1%;
+        margin-top: 350px;
         text-align: center;
     }
     nav ul li a{
@@ -183,6 +197,14 @@ body{
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .logo{
+        position: absolute;
+        z-index: 2;
+        top: 18%;
+        left: 10%;
+        width: 30%;
+        height: 15%;
+    }
     .absolute_txt{
         position: absolute;
         height: 5%;
@@ -205,9 +227,8 @@ body{
     nav ul div{
         display: flex;
         flex-direction: row;
-        height: 30%;
+        height: 436px;
         width: 100%;
-        padding-top: 16.5%;
         background: rgba(0, 0, 0, 0.5);
     }
     .li_first{
@@ -216,7 +237,7 @@ body{
     nav ul li{
         width: 7%;
         margin-left: 2.5%;  
-        margin-top: 3.5%;
+        margin-top: 370px;
         text-align: center;
     }
     nav ul li a{
@@ -251,10 +272,18 @@ body{
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .logo{
+        position: absolute;
+        z-index: 2;
+        top: 12%;
+        left: 10%;
+        width: 30%;
+        height: 15%;
+    }
     .ava1{
         position: absolute;
         top: 30%;
-        right: 2%;
+        right: 10%;
         width: 50px;
         height: 50px;
         border: 2px white solid;
@@ -262,6 +291,7 @@ body{
     }
     .absolute_txt{
         position: absolute;
+        z-index: 1;
         height: 5%;
         background: rgba(0, 0, 0, 0.9);
         z-index: 2;
@@ -282,9 +312,9 @@ body{
     nav ul div{
         display: flex;
         flex-direction: row;
-        height: 30%;
+        height: 350px;
         width: 100%;
-        padding-top: 16.5%;
+   
         background: rgba(0, 0, 0, 0.5);
     }
     .li_first{
@@ -293,7 +323,7 @@ body{
     nav ul li{
         width: 7%;
         margin-left: 2.5%;  
-        margin-top: 2.5%;
+        margin-top: 280px;
         text-align: center;
     }
     nav ul li a{
@@ -309,7 +339,7 @@ body{
     }
     svg{
         top: 36.1%;
-        right: 2%;
+        right: 10%;
         position: absolute;
         width: 45px;
         height: 45px;
