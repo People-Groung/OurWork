@@ -6,6 +6,10 @@
     font-size: 1vw;
     font-family: "Bips";
 }
+@font-face {
+    font-family: "Bips";
+    src: url(/fonts/BIPs.ttf);
+}
 body{
     background: url(/images/back_sign.jpg);
     height: 100%;

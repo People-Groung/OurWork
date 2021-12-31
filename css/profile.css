@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 *{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+@font-face {
+    font-family: "Bips";
+    src: url(/fonts/BIPs.ttf);
 }
 /*-------------------------HEADER--------------------------*/
 header{
