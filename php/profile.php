@@ -14,7 +14,7 @@ if (!$_SESSION['user']){
     <title>Профиль</title>
 </head>
 <header>
-        <a href="../../index.php"><h1 class="logo1">BOOKS</h1></a>
+        <a href="../../index.php"><img class="" src="../../images/Bez_imeni-1.png" alt=""></a>
     </header>
 <body>  
         <img class="ava" src="<?= $_SESSION['user']['avatar'] ?>" alt="">
