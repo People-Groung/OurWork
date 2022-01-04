@@ -14,6 +14,7 @@ if (!$_SESSION['user']){
 </head>
 <body>
     <header>
+    <img class="logo" src="/images/Bez_imeni-1.png" alt="">
         <div class="absolute_txt">РИТУАЛЬНЫЕ ТОВАРЫ И УСЛУГИ В АСТРАХАНИ, ПОХОРОНЫ, КРЕМАЦИЯ</div>
         <nav>
             <ul>
