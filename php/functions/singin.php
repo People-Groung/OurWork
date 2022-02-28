@@ -7,11 +7,12 @@
     $password = md5($_POST['password']);
 
     $check_user = $connect->prepare("SELECT * FROM `registration` WHERE `login` = '$login' AND `password` = '$password'");
-    $check_user->execute(array('21'));
+    $check_user->execute();
 
     $user = $check_user->fetch(PDO::FETCH_ASSOC);
 
-        $_SESSION['user'] = [
+    if($user>0){
+       $_SESSION['user'] = [
             "id" => $user['id'],
             "login" => $user['login'],
             "full_name" => $user['full_name'],
@@ -19,7 +20,9 @@
             "email" => $user['email']
         ];
         
-        header('Location: ../profile.php');
-    
+        header('Location: ../profile.php'); 
+    }
+    else{
         $_SESSION['message'] = 'Неверный логин или пароль!!!';
         header('Location: ../singin.php');  
+    }     
